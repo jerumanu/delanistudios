@@ -6,3 +6,10 @@
     height: 40%;
 
 }
+.services {
+    background-image: url(../images/s_image.jpg);
+    background-repeat: no-repeat;
+    block-size: cover;
+    height: 450 px;
+    color: white;
+}
