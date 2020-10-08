@@ -17,3 +17,13 @@
     padding:8 px ;
 
 }
+input[type=text],input[type=email],textarea {
+    background: transparent;
+    color: white;
+
+}
+.text4 textarea{
+    background: transparent;
+    color: white;
+
+}
