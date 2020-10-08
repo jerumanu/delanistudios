@@ -27,3 +27,6 @@ input[type=text],input[type=email],textarea {
     color: white;
 
 }
+.text4 textarea ,[placeholder= "Your massage here"]{
+    color:white;
+}
