@@ -26,11 +26,11 @@ $ (document).ready( function(){
 })
 $(document).ready(function () {
    $ (".image1").mouseover(function () {
-       $(".work").show(1000)
+       $("#overlay").show(1000)
    });
 
      $ (".image1").mouseout(function () {
-       $(".work").hide(1000);
+       $("#overlay").hide(1000);
        
    })
 })
