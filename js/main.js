@@ -1,6 +1,6 @@
 $ (document).ready( function(){
     $("#image1").click(function () {
-    $("#para1").toggle(1000);
+    $("#para1").slidetoggle(1000);
     });
     $("#image1").click(function () {
         $("#para1").slidetoggle(1000);
@@ -26,11 +26,11 @@ $ (document).ready( function(){
 })
 $(document).ready(function () {
    $ (".image1").mouseover(function () {
-       $("#overlay").show(1000)
+       $("work1").show()
    });
 
      $ (".image1").mouseout(function () {
-       $("#overlay").hide(1000);
+       $("work1").hide();
        
    })
 })
@@ -104,3 +104,13 @@ $(document).ready(function () {
         
     })
  })
+  $(document).ready(function () {
+    
+      $ ("#contact").submit(function ( )   {
+          var Name =$("#name").value();
+          var Email =$("#email").value();
+        alert( " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
+        
+          
+      })
+  })

@@ -30,18 +30,8 @@ input[type=text],input[type=email],textarea {
 .text4 textarea ,[placeholder= "Your massage here"]{
     color:white;
 }
-#overlay{
-    background: #fff;
-    border: solid 3px #ccc;
-    color: #ff6a00;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    margin-left: auto;
-    margin: 15px;
-    padding: 5px;
-    position: absolute;
-    left: calc(100% - 100px);
-    text-transform: uppercase;
-    width: 50px;
+.work{
+    display: none;
+    
+    
 }
