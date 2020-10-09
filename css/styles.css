@@ -30,8 +30,47 @@ input[type=text],input[type=email],textarea {
 .text4 textarea ,[placeholder= "Your massage here"]{
     color:white;
 }
-.work{
+#work{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    top: 0.0em;
     display: none;
-    
+    color: black;
+    font-size: 20px;
+    padding-top: 30%;
+    border:3px ,solid green;
+  }  
+  
+
+
+#image1a{
+   cursor: pointer;
     
 }
+#image1b{
+    display: none;
+    cursor: pointer;
+}
+#image2a{
+    cursor: pointer;
+     
+ }
+ #image2b{
+     display: none;
+     cursor: pointer;
+ }
+ #image3a{
+    cursor: pointer;
+     
+ }
+ #image3b{
+     display: none;
+     cursor: pointer;
+ }
+
+
+
+ 
