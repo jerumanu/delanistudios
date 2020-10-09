@@ -168,6 +168,11 @@ input[type=text],input[type=email],textarea {
      display: none;
      cursor: pointer;
  }
+ .icons{
+     display: inline;
+     align-items: center;
+     padding-left: 20%;
+ }
 
 
 
