@@ -21,79 +21,78 @@ $ (document).ready( function(){
         $("#image3a").hide(1000);
     });
     $("#image3b").click(function(){
-        $("#image3a").show(1000);
-        $("#image3b").hide(1000);
+        $("#image3a").show();
+        $("#image3b").hide();
     });
    $ (".image1").mouseover(function () {
-       $("#work").show()
+       $("#work1").show()
    });
 
      $ (".image1").mouseout(function () {
-       $("#work").hide();
+       $("#work1").hide();
        
    })
     $ (".image2").mouseover(function () {
-        $("#work").show()
+        $("#work2").show()
     });
  
       $ (".image2").mouseout(function () {
-        $("#work").hide();
+        $("#work2").hide();
         
     })
-})
- $(document).ready(function () {
+
     $ (".image3").mouseover(function () {
-        $("#work").show(1000)
+        $("#work3").show()
     });
  
-      $ (".image13").mouseout(function () {
-        $("#work").hide(1000);
+      $ (".image3").mouseout(function () {
+        $("#work3").hide();
         
     })
  
  
     $ (".image4").mouseover(function () {
-        $("#work").show(1000)
+        $("#work4").show()
     });
  
       $ (".image4").mouseout(function () {
-        $("#work").hide(1000);
+        $("#work4").hide();
         
     })
  
     $ (".image5").mouseover(function () {
-        $("#work").show(1000)
+        $("#work5").show()
     });
  
       $ (".image5").mouseout(function () {
-        $("#work").hide(1000);
+        $("#work5").hide();
         
     })
  
     $ (".image6").mouseover(function () {
-        $("#work").show(1000)
+        $("#work6").show()
     });
  
       $ (".image6").mouseout(function () {
-        $("#work").hide(1000);
+        $("#work6").hide();
         
     })
  
     $ (".image7").mouseover(function () {
-        $("#work").show(1000)
+        $("#work7").show()
     });
  
       $ (".image7").mouseout(function () {
-        $("#work").hide(1000);
+        $("#work7").hide();
         
     })
 
     $ (".image8").mouseover(function () {
-        $("#work").show(1000)
+        $("#work8").show()
     });
  
       $ (".image8").mouseout(function () {
-        $("#work").hide(1000);
+        $("#work8").hide();
         
     })
  
