@@ -181,25 +181,25 @@
     </section>
     <br />
     <br />
-    <form action="http://eepurl.com/hfJ-dP" method="POST" class="contact" styles="padding-top: 5 em;">
+    <form action="http://eepurl.com/hfJ-dP" method="POST"  class="contact" styles="padding-top: 5 em;"> 
       <div class="text-center" style="background-image: url(./images/c_image.jpg)">
         <h2>CONTACT US</h2>
         <div class="form-row" id="contact" style="padding-right: 10%; padding-left: 10%; padding-top: 5%; padding-bottom: 5%;">
           <div class="form-group col-md-6" style="background-color: none">
             <label for=""></label>
-            <input type="email" class="form-control" placeholder="Email..." id="email" />
+            <input type="email" class="form-control" placeholder="Email..." id="email" required>
           </div>
           <div class="form-group col-md-6">
             <label for=""></label>
-            <input type="text" class="form-control" placeholder="Name ..." id="name" />
+            <input type="text" class="form-control" placeholder="Name ..." id="name" required>
           </div>
         </div>
         <div class="text4 form-group" style="padding-left: 12%; padding-right: 10%">
           <label for=""></label>
-          <textarea class="form-control" id="massage" placeholder="Your massage here" rows="8"></textarea>
+          <textarea class="form-control" id="message" placeholder= "Your massage here..." rows="8" required></textarea>
         </div>
-        <div class="button" style="padding-top: 4%; padding-bottom: 3%">
-          <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="button"style="padding-top: 4%; padding-bottom: 3%">
+          <button type="submit" id="button" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </form>
@@ -223,6 +223,7 @@
 </div>
     </section>
   </div>
+  
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>

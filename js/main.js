@@ -1,12 +1,12 @@
 $ (document).ready( function(){
     $("#image1a").click(function(){
-        $("#image1b").show(1000);
-        $("#image1a").hide(1000);
+        $("#image1b").slide().show(1000);
+        $("#image1a").slideUp().hide(1000);
     });
     
     $("#image1b").click(function(){
-        $("#image1a").show(1000);
-        $("#image1b").hide(1000);
+        $("#image1a").slideDown().show(1000);
+        $("#image1b").slideUp().hide(1000);
     });
     $("#image2a").click(function(){
         $("#image2b").show(1000);
@@ -95,12 +95,23 @@ $ (document).ready( function(){
         $("#work8").hide();
         
     })
- 
+    $("button").click(function () {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+      if (name === "") {
+        alert("Please Insert your name")
+      } else
+           if(email === ""){
+          alert("Enter your Email")
+      }else
+         if(message === "") {
+        alert("Please insert your message!")
+      }else {
+         alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+      }
+    });
+      
     
-      $ ("#contact").submit(function ( )   {
-          var Name =$("#name").value();
-          var Email =$("#email").value();
-        alert( " THANK YOU FOR CONTACTING US.WE HAVE GLADLY RECIEVED YOUR MESSAGE ");
-        
-      })   
       })
+
