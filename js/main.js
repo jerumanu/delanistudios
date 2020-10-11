@@ -1,12 +1,12 @@
 $ (document).ready( function(){
     $("#image1a").click(function(){
-        $("#image1b").slide().show(1000);
-        $("#image1a").slideUp().hide(1000);
+        $("#image1b").show(1000);
+        $("#image1a").hide(1000);
     });
     
     $("#image1b").click(function(){
-        $("#image1a").slideDown().show(1000);
-        $("#image1b").slideUp().hide(1000);
+        $("#image1a").show(1000);
+        $("#image1b").hide(1000);
     });
     $("#image2a").click(function(){
         $("#image2b").show(1000);
