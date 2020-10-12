@@ -1,6 +1,6 @@
 # DELANI STUDIO
-## Description of Akan-Birthday
-dELANI STUDIO is a aplication that creat project landing page  .It was created on 11/10/2020.
+## Description of delani studio
+DELANI STUDIO is a aplication that creat project landing page  .It was created on 11/10/2020.
 ## Author
 By Emmanuel cheriyot.
  ## project Set up Instructions
